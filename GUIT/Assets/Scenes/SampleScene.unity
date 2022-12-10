@@ -218,8 +218,110 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &461876767
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 308019442458818429, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 308019442458818429, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 308019442458818429, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 308019442458818429, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 308019442458818429, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7493026
+      objectReference: {fileID: 0}
+    - target: {fileID: 308019442458818429, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6622278
+      objectReference: {fileID: 0}
+    - target: {fileID: 308019442458818429, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 308019442458818429, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 308019442458818429, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -82.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 308019442458818429, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 308019442458818429, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 311083241123729471, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 311184656859670933, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+      propertyPath: m_Name
+      value: Book
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+--- !u!1 &461876768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 311184656859670933, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+  m_PrefabInstance: {fileID: 461876767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &461876769 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 415041330959768631, guid: 5ef2bcca2a96f38498a8dcf52868e53e, type: 3}
+  m_PrefabInstance: {fileID: 461876767}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461876768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b15ee817545aa6a49921977f31ae51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &461876770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461876768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bb71e89d501be40b3b9f6004553212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  book: {fileID: 461876769}
+  openCloseTime: 0.3
+  groupPageTurnType: 0
+  singlePageTurnTime: 0
+  groupPageTurnTime: 0
+  tableOfContentsPageNumber: 0
+  bookOpenSound: {fileID: 0}
+  bookCloseSound: {fileID: 0}
+  pageTurnSound: {fileID: 0}
+  pagesFlippingSound: {fileID: 0}
+  pagesFlippingSoundDelay: 0
+  touchPad: {fileID: 0}
+  pageViews: []
 --- !u!1001 &602736184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -369,7 +471,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &963194225
 GameObject:
