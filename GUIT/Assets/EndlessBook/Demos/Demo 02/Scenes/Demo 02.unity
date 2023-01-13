@@ -11506,6 +11506,8 @@ MonoBehaviour:
   - material: {fileID: 2100000, guid: ee16e546f4f231c42b332896af011f9b, type: 2}
   - material: {fileID: 2100000, guid: 2d1cc845be32f3647a05d6cb8d17cd6b, type: 2}
   - material: {fileID: 2100000, guid: 3c8670c34653f1f40bdfb2b9231e87e2, type: 2}
+  - material: {fileID: 2100000, guid: 2d1cc845be32f3647a05d6cb8d17cd6b, type: 2}
+  - material: {fileID: 2100000, guid: 3c8670c34653f1f40bdfb2b9231e87e2, type: 2}
   pages:
   - {fileID: 502405817}
   - {fileID: 967675952}
