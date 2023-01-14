@@ -10244,7 +10244,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1620873902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11224,7 +11224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1803630694
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11522,8 +11522,10 @@ MonoBehaviour:
   - material: {fileID: 2100000, guid: ef5956ee972f5aa4586f0bf52d2a4c1c, type: 2}
   - material: {fileID: 2100000, guid: 87a434c2dcc1e884da156706dca23d14, type: 2}
   - material: {fileID: 2100000, guid: c57a3099e6fb78e4e8a5a64ec6a0c8d6, type: 2}
-  - material: {fileID: 2100000, guid: 2d1cc845be32f3647a05d6cb8d17cd6b, type: 2}
-  - material: {fileID: 2100000, guid: 3c8670c34653f1f40bdfb2b9231e87e2, type: 2}
+  - material: {fileID: 2100000, guid: 6da2fe34c3e0a8546aad7988a27403a4, type: 2}
+  - material: {fileID: 2100000, guid: 2296e052e1e08714f91639936c5b5513, type: 2}
+  - material: {fileID: 2100000, guid: 00edb017874d44447baf2850283e56d3, type: 2}
+  - material: {fileID: 2100000, guid: acca5fe3e28de96499c06d4d77e5cdec, type: 2}
   pages:
   - {fileID: 502405817}
   - {fileID: 967675952}
