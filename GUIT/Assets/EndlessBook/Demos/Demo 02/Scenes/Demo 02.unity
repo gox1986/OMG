@@ -4872,6 +4872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle Lower Right
       objectReference: {fileID: 0}
+    - target: {fileID: 1397089884456600, guid: f4f2a21bfa9768d4cbce6e7a7f5b09b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4173851112500740, guid: f4f2a21bfa9768d4cbce6e7a7f5b09b3, type: 3}
       propertyPath: m_RootOrder
       value: 1
